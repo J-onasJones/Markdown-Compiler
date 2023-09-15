@@ -22,6 +22,9 @@ def main():
         else:
             print('Error: Invalid file(s) or folder(s).')
             exit(1)
+    else:
+        print('Error: Invalid number of arguments.')
+        exit(1)
 
 
 
